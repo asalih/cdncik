@@ -1,6 +1,6 @@
-﻿#lite-cdn
+﻿# cdncik is a little cdn
 
-Reads given file, minifies and keeps it in memory.
+Reads given files, minifies and keeps it in memory.
 
 ```js
 var cdn = cdnApp({
