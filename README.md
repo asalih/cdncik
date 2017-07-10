@@ -1,5 +1,5 @@
 ﻿# cdncik
-Cdncik is lightweight cdn. Reads given files, minifies and keeps it in memory.
+Cdncik is a lightweight cdn. Reads given files, minifies and keeps it in memory.
 
 ```js
 var cdn = cdnApp({
