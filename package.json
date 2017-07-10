@@ -1,0 +1,12 @@
+{
+  "name": "cdn",
+  "version": "0.0.0",
+  "description": "lite-cdn",
+  "main": "app.js",
+  "author": {
+    "name": "asalih"
+  },
+  "dependencies": {
+    "minify": "^2.1.8"
+  }
+}
