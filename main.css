@@ -1,0 +1,9 @@
+﻿body {
+    background-color: #f7f7f7;
+}
+
+div,
+span,
+h1 {
+    display: block;
+}
