@@ -1,5 +1,5 @@
 ﻿# cdncik
-Cdncik is a lightweight cdn. Reads given files, minifies and keeps it in memory.
+Cdncik serves static files. Reads given files, minifies and keeps it in memory.
 
 ```js
 var cdn = cdnApp({
@@ -12,7 +12,7 @@ cdn.addCss({ path: "css/main.css", maxAge: 25000 });
 cdn.start();
 ```
 
-for handling the load, i used [Cluster Module](https://nodejs.org/dist/latest-v6.x/docs/api/cluster.html).
+i've used [Cluster Module](https://nodejs.org/dist/latest-v6.x/docs/api/cluster.html) for handling the load.
 
 ToDo:
 - reload scenerio
